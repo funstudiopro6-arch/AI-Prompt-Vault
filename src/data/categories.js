@@ -1,0 +1,90 @@
+export const categories = [
+  {
+    id: 'image',
+    name: 'Image generation',
+    short: 'Image',
+    icon: 'Image',
+    color: '#bd9aff',
+    description: 'Bring the worlds in your head to life.',
+  },
+  {
+    id: 'video',
+    name: 'Video creation',
+    short: 'Video',
+    icon: 'Clapperboard',
+    color: '#fca88c',
+    description: 'Every great film starts with a little imagination.',
+  },
+  {
+    id: 'coding',
+    name: 'Coding',
+    short: 'Coding',
+    icon: 'Code2',
+    color: '#85cbe9',
+    description: 'From your first function to your next big build.',
+  },
+  {
+    id: 'productivity',
+    name: 'Productivity',
+    short: 'Productivity',
+    icon: 'Zap',
+    color: '#d4d982',
+    description: 'Less busywork. More room for what matters.',
+  },
+  {
+    id: 'education',
+    name: 'Education',
+    short: 'Education',
+    icon: 'GraduationCap',
+    color: '#f2a4cd',
+    description: 'Make learning your next favorite adventure.',
+  },
+  {
+    id: 'research',
+    name: 'Research',
+    short: 'Research',
+    icon: 'FlaskConical',
+    color: '#90bfef',
+    description: 'Ask better questions. Discover deeper answers.',
+  },
+  {
+    id: 'automation',
+    name: 'Automation',
+    short: 'Automation',
+    icon: 'Workflow',
+    color: '#9bd6b9',
+    description: 'Build helpful systems that do the heavy lifting.',
+  },
+  {
+    id: 'writing',
+    name: 'Writing',
+    short: 'Writing',
+    icon: 'PenLine',
+    color: '#c3aaf5',
+    description: 'Find the right words for your next big idea.',
+  },
+  {
+    id: 'marketing',
+    name: 'Marketing',
+    short: 'Marketing',
+    icon: 'Megaphone',
+    color: '#edbd88',
+    description: 'Connect your ideas with the people who need them.',
+  },
+];
+
+export const categoryMap = Object.fromEntries(
+  categories.map((category) => [category.id, category]),
+);
+
+export const tools = [
+  { name: 'ChatGPT', url: 'https://chatgpt.com/' },
+  { name: 'Claude', url: 'https://claude.ai/new' },
+  { name: 'Gemini', url: 'https://gemini.google.com/app' },
+  { name: 'Midjourney', url: 'https://www.midjourney.com/' },
+  { name: 'DALL·E', url: 'https://chatgpt.com/' },
+  { name: 'Flux', url: 'https://playground.bfl.ai/' },
+  { name: 'Runway', url: 'https://app.runwayml.com/' },
+  { name: 'Sora', url: 'https://sora.com/' },
+  { name: 'Kling', url: 'https://klingai.com/' },
+];

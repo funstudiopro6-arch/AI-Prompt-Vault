@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="vaultGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ceb3fa"/>
+      <stop offset="50%" stop-color="#af8fe5"/>
+      <stop offset="100%" stop-color="#8c6abb"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#vaultGrad)"/>
+  <path d="M32 12L36.5 25.5L50 30L36.5 34.5L32 48L27.5 34.5L14 30L27.5 25.5L32 12Z" fill="white"/>
+  <circle cx="48" cy="16" r="3" fill="white" fill-opacity="0.85"/>
+  <circle cx="17" cy="46" r="2.5" fill="white" fill-opacity="0.75"/>
+</svg>
